@@ -61,7 +61,7 @@ document.querySelector(".tombol").addEventListener("click", function () {
                 }).then((e) => {
                   val = e.value;
                   Swal.fire(`Selamat Ulang Tahun yang ke- ${val} ${nama} cantikk`).then(function () {
-                    Swal.fire("Untuk membuka sesuatunya kamu klik icon hati di bawah yaa:)");
+                    Swal.fire("Untuk membuka sesuatu... kamu klik icon hati di bawah yaa:)");
                   });
                 });
               });
